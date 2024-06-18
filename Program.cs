@@ -72,7 +72,7 @@
             }
 
             int newLength = arrLength % 2 == 0 ? arrLength - 2 : arrLength - 1;
-            int[] newArray = new int[newLength];
+            int[] newArray = new int[newLength]; 
 
             // Find the middle index(es)
             int middleIndex1 = arrLength / 2;
