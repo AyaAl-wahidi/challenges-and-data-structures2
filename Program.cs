@@ -4,17 +4,17 @@
     {
         static void Main(string[] args)
         {
-            ArrayReversal();
+            //ArrayReversal();
+            //MaximumValue();
         }
 
         static void ArrayReversal()
         {
             Console.WriteLine("Please enter the length of the array you want to reverse:");
             int arrLength = Convert.ToInt16(Console.ReadLine());
-
             int [] arrNumber = new int[arrLength];
-            Console.WriteLine("Please enter the array values:");
 
+            Console.WriteLine("Please enter the array values:");
             for (int i = 0; i < arrLength; i++)
             {
                 arrNumber[i] = Convert.ToInt16(Console.ReadLine());
@@ -33,6 +33,29 @@
             {
                 Console.WriteLine(i);
             }
+        }
+
+        static void MaximumValue()
+        {
+            Console.WriteLine("Please enter the length of the array:");
+            int arrLength = Convert.ToInt16(Console.ReadLine());
+            int[] arrNumber = new int[arrLength];
+
+            Console.WriteLine("Please enter the array values:");
+            for (int i = 0; i < arrLength; i++)
+            {
+                arrNumber[i] = Convert.ToInt16(Console.ReadLine());
+            }
+
+            int max = 0;
+            foreach (int i in arrNumber)
+            {
+                if (max < i)
+                {
+                    max = i;
+                }
+            }
+            Console.WriteLine("The max number:" + max);
         }
 
 
