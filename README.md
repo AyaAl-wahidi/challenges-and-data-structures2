@@ -9,16 +9,16 @@
 
 
 #### Challenge 1 B: Most Frequent Number
-[**Go to Challenge Whiteboard**](whiteboard-challenges/most-frequent-number/README.md)
+[**Go to Challenge Whiteboard**](whiteboard-challenges/MostFreqNumber.jpg)
 
 ---
 
 
 #### Challenge 2: Maximum Value
-[**Go to Challenge Whiteboard**](whiteboard-challenges/maximum-value/README.md)
+[**Go to Challenge Whiteboard**](whiteboard-challenges/MaximumValue.jpg)
 
 ---
 
 
 #### Challenge 3: Remove Middle Value from Array
-[**Go to Challenge Whiteboard**](whiteboard-challenges/remove-middle-value-from-array/README.md)
+[**Go to Challenge Whiteboard**](whiteboard-challenges/RemoveMiddleValue.jpg)
