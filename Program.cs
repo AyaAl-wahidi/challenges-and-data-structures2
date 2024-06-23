@@ -6,7 +6,8 @@
         {
             //ArrayReversal();
             //MaximumValue();
-            RemoveMiddleValue();
+            //RemoveMiddleValue();
+            //MostFrequentNumber();
         }
 
         static void ArrayReversal()
@@ -93,5 +94,35 @@
                 Console.Write(value + " ");
             }
         }
+
+        static void MostFrequentNumber()
+        {
+            int[] numbers = { 1, 1, 2, 2, 3, 3, 3, 1, 5, 5, 6, 6, 7, 8, 2, 1, 1 };
+            
+
+            int maxCount = 0;
+            int mostFrequentNumber = numbers[0];
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                int count = 0;
+                for (int j = 0; j < numbers.Length; j++)
+                {
+                    if (numbers[j] == numbers[i])
+                    {
+                        count++;
+                    }
+                }
+
+                if (count > maxCount)
+                {
+                    maxCount = count;
+                    mostFrequentNumber = numbers[i];
+                }
+            }
+            Console.WriteLine("The frequent number is : " + mostFrequentNumber);
+        }
+
+
     }
 }
