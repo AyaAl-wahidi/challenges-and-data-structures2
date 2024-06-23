@@ -8,6 +8,7 @@
             //MaximumValue();
             //RemoveMiddleValue();
             //MostFrequentNumber();
+            //MiddleValue();
         }
 
         static void ArrayReversal()
@@ -123,6 +124,46 @@
             Console.WriteLine("The frequent number is : " + mostFrequentNumber);
         }
 
-        static void MiddleValue() { }
+        static void MiddleValue() {
+
+            Console.WriteLine("Please enter the length of the array:");
+            int arrLength = Convert.ToInt16(Console.ReadLine());
+            int[] arrNumber = new int[arrLength];
+
+            Console.WriteLine("Please enter the array values:");
+            for (int i = 0; i < arrLength; i++)
+            {
+                arrNumber[i] = Convert.ToInt16(Console.ReadLine());
+            }
+
+            Console.WriteLine("Please enter the value you want to enter in the middle of the array:");
+            int newNumber = Convert.ToInt16(Console.ReadLine());
+
+            int midIndex = arrLength / 2;
+            int[] newArr = new int[arrLength + 1];
+            string oddOrEven = arrLength % 2 == 0 ? "even" : "odd";
+
+            for (int i = 0; i <= arrLength; i++)
+            {
+                if (i == midIndex && oddOrEven == "even")
+                    newArr[i] = newNumber;
+                else if (i > midIndex)
+                    newArr[i] = arrNumber[i - 1];
+                else if(i < midIndex)
+                    newArr[i] = arrNumber[i];
+                else if (i == midIndex && oddOrEven == "odd")
+                {
+                    newArr[i] = arrNumber[i];
+                    newArr[i + 1] = newNumber;
+                    i++;
+                }
+            }
+
+            Console.Write("The new array with the new number : ");
+            foreach (int num in newArr)
+            {
+                Console.Write(num + " ");
+            }
+        }
     }
 }
