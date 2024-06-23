@@ -123,6 +123,6 @@
             Console.WriteLine("The frequent number is : " + mostFrequentNumber);
         }
 
-
+        static void MiddleValue() { }
     }
 }
