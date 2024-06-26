@@ -22,3 +22,15 @@
 
 #### Challenge 3: Remove Middle Value from Array
 [**Go to Challenge Whiteboard**](whiteboard-challenges/RemoveMiddleValue.jpg)
+
+---
+
+
+#### Challenge 4: Insert Value in Middle of Array
+[**Go to Challenge Whiteboard**](whiteboard-challenges/MiddleValue.jpg)
+
+---
+
+
+#### Challenge 5: Find Duplicates in Array
+[**Go to Challenge Whiteboard**](whiteboard-challenges/FindDuplicates.jpg)
