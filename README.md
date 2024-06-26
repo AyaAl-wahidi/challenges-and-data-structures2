@@ -8,23 +8,29 @@
 ---
 
 
-#### Challenge 2 B: Most Frequent Number
+#### Challenge 1 B: Most Frequent Number
 [**Go to Challenge Whiteboard**](whiteboard-challenges/MostFreqNumber.jpg)
 
 ---
 
 
-#### Challenge 3: Maximum Value
+#### Challenge 2: Maximum Value
 [**Go to Challenge Whiteboard**](whiteboard-challenges/MaximumValue.jpg)
 
 ---
 
 
-#### Challenge 4: Remove Middle Value from Array
+#### Challenge 3: Remove Middle Value from Array
 [**Go to Challenge Whiteboard**](whiteboard-challenges/RemoveMiddleValue.jpg)
 
 ---
 
 
-#### Challenge 5: Insert Value in Middle of Array
+#### Challenge 4: Insert Value in Middle of Array
 [**Go to Challenge Whiteboard**](whiteboard-challenges/MiddleValue.jpg)
+
+---
+
+
+#### Challenge 5: Find Duplicates in Array
+[**Go to Challenge Whiteboard**](whiteboard-challenges/FindDuplicates.jpg)
