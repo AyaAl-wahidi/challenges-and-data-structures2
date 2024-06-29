@@ -34,3 +34,9 @@
 
 #### Challenge 5: Find Duplicates in Array
 [**Go to Challenge Whiteboard**](whiteboard-challenges/FindDuplicates.jpg)
+
+---
+
+
+#### Challenge 6: Find Common Elements in Two Arrays
+[**Go to Challenge Whiteboard**](whiteboard-challenges/Common-Elements.jpg)

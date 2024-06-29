@@ -1,22 +1,7 @@
 ﻿namespace challenges_and_data_structures2
 {
-    internal class Program
+    internal class Program3
     {
-        static void Main(string[] args)
-        {
-            //ArrayReversal();
-            //MaximumValue();
-            //RemoveMiddleValue();
-            //MostFrequentNumber();
-            //MiddleValue();
-
-            int[] input1 = { 1, 2, 3, 1, 2, 3 };
-            int[] output1 = FindDuplicates(input1);
-
-            Console.WriteLine("Input: [16, 8 ,31, 17, 15, 23, 17, 8]");
-            Console.WriteLine("Output: [" + string.Join(", ", output1) + "]");
-        }
-
         static void ArrayReversal()
         {
             Console.WriteLine("Please enter the length of the array you want to reverse:");
