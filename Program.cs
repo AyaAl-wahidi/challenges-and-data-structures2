@@ -16,6 +16,7 @@ namespace challenges_and_data_structures2
             int[] newArr2 = { 10, 15, 25};
 
             int[] output =  Program2.CommonElements(newArr, newArr2);
+            Console.WriteLine("Input: [5, 10, 15, 20]");
             Console.WriteLine("Output: [" + string.Join(", ", output) + "]");
 
             // Find-Duplicates
